@@ -1,0 +1,148 @@
+body{
+    background-color: #1f2122 !important;
+}
+.logo-border{
+    padding-right: 15px;
+    border-right: 1px solid #2a2b2c;
+}
+.search-input input{
+border-radius: 20px;
+padding: 12px 15px;
+position: relative;
+
+
+}
+.search-icon{
+    position: absolute;
+    z-index: 1;
+   top:30px;
+  padding:0px 10px;
+    
+}
+.active{
+    color: #e75e8d !important;
+}
+.index-nav  a:hover{
+color: #e75e8d !important;
+}
+
+.profile{
+padding: 0px 10px;
+background-color:#27292a;
+border-radius: 25px;
+}
+.profile-img{
+    width: 30px;
+}
+.profile:hover{
+    background-color: #e75e8d;
+    color: #fff !important;
+}
+.profile a:hover {
+  
+    color: #fff !important;
+}
+.gray-color{
+    color: #666;
+}
+.profile-hover-color:hover{
+    color: #fff !important;
+}
+.bg-search{
+   background-color: #27292a;
+   border: none;
+}
+.bg-search::placeholder {
+    color: #666;
+    opacity: 1;
+    /* Firefox */
+}
+input:focus{
+background-color: #27292a !important;
+border:  1px solid #fff;
+outline: none;
+border-color: #ffffff !important; 
+     box-shadow: none !important;
+     color: #fff !important;
+}
+.contenet-bg{
+    background-color: #27292a !important;
+}
+.banner{
+    background-image: url("Asst/banner-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+.active-color{
+    color: #e75e8d;
+}
+.btn-primary{
+    background-color: #e75e8d !important;
+    color: #fff !important;
+    border: none;
+}
+.btn-secondary{
+    background-color:#1f2122 !important;
+        color: #666 !important;
+        border:#666 solid 1px ;
+}
+.btn-danger{
+    background-color: #1f2122 !important;
+    color: #e75e8d !important;
+        border: #e75e8d solid 1px;
+}
+.banner{
+    min-height: 400px;
+}
+.container-bg-black{
+    background-color: #1f2122;
+}
+.upper{
+    text-transform: uppercase;
+}
+.card{
+    background-color: #27292a;
+}
+.light-gray{
+    color: #666;
+}
+.yallow-star{
+    color: yellow;
+}
+.download-color{
+    color: #e75e8d;
+}
+.m-card-hight{
+    height: 300px;
+}
+.bouttonn{
+   margin-bottom: -40px;
+
+}
+
+.gameFontSize{
+    font-size: 15px;
+}
+.gamePhoto{
+    border-radius: 25px;
+    width: 80px;
+}
+.photo-center{
+margin-right: 4.5rem;
+
+}
+.border-bottom-game{
+    padding: 20px 0px;
+    margin: 20px 0px;
+    border-bottom: #27292a 1px solid;
+  
+}
+.copyRight{
+padding-top: 40px;
+padding-bottom: 10px;
+    font-size: 15px;
+}
+.btn-primary:hover{
+    background-color: #fff !important;
+    color: #e75e8d !important;
+}

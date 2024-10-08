@@ -1,0 +1,101 @@
+.underLiene{
+    text-decoration: underline;
+}
+.font-banerSize{
+    font-size: 35px;
+}
+.pics img{
+    width: 200px !important;
+    border-radius: 20px;
+}
+.cardGameFont-title{
+    font-size: 15px ;
+    color: #fff;
+    font-weight: 800;
+}
+.cardGameFont-Sub-title{
+
+font-size: 15px;
+color: #666;
+
+}
+.download-Btn{
+   width: 45px;
+   height: 45px;
+    background-color: #27292a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border-info{
+    border-bottom: 1px solid #27292a !important;
+    padding-bottom: 25px;
+}
+.veiw a{
+    text-decoration: none;
+    color: #e75e8d !important;
+    font-size: 15px;
+    font-weight: 700;
+
+  
+
+}
+.service-Font{
+    font-size: 20px ;
+    color: #fff;
+
+}
+.card-sercive img{
+    border-radius: 50%;
+}
+.card{
+    border-radius: 20px;
+    border: 1px #444 solid;
+   
+}
+.card-sercive{
+    border-radius: 20px;
+        border: 1px #444 solid;
+        padding: 30px;
+       min-height: 290px !important;
+}
+.paypalLink {
+    text-decoration: none;
+color: #fff;
+
+}
+.paypalLink:hover{
+    color: #e75e8d !important;
+}
+.serviceMianTtile-Size{
+    font-size: 20px;}
+
+    .popular-photo img{
+border-radius: 17px !important;
+
+    }
+
+    .profile-picture img{
+border-radius: 50%;
+width: 60px;
+    }
+    .true-check{
+        text-align: center;
+        margin-right: 6px;
+    }
+    .true-check i{
+        font-size: 12px;
+        padding: 3px;
+        width: 20px !important;
+            height: 20x;
+      
+        border-radius: 50%;
+        background-color: #e75e8d;
+    }
+    .fs-20{
+font-size: 20px;
+    }
+    .popular-cards-cenianer{
+       width: 250px;
+    }

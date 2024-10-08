@@ -1,0 +1,25 @@
+.active-prifle {
+    background-color: #e75e8d !important;
+    color: #fff !important;
+}
+.active-prifle a{
+    color: #fff !important;
+}
+.box-border{
+    border-bottom: 1px solid #666;
+
+}
+.underLiene{
+    text-decoration: underline;
+}
+.clips img{
+    width: 250px;
+    border-radius: 20px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.clips{
+    border-top: solid 2px #27292a !important;
+    padding-top: 10px;
+}

@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <link rel="stylesheet" href="styleBrowse.css">
+    <link rel="stylesheet" href="sylte.css">
+
+
+
+<link rel="stylesheet" href="stream.css">
+    <title>Stream</title>
+</head>
+<body>
+<div class="container navbarr p-3">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+            <a class="navbar-brand logo-border" href="#"><img src="Asst/logo.png" alt="logo" class="pe-5"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form class="d-flex me-auto ms-5 search-input d-none d-xl-block " role="search">
+
+                    <input class="form-control bg-search me-2 " type="search" placeholder="    Type Somethings"
+                        aria-label="Search">
+
+                </form>
+
+
+                <ul class="navbar-nav  mb-2 mb-lg-0 d-lg-flex align-items-center ">
+                    <li class="nav-item index-nav d-flex align-items-start">
+                        <a class="nav-link gray-color" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-4 index-nav d-flex align-items-start text-start">
+                        <a class="nav-link gray-color" href="Browse.html">Browse</a>
+                    </li>
+                    <li class="nav-item ms-4 index-nav text-start">
+                        <a class="nav-link gray-color" href="Details.html">Details</a>
+                    </li>
+
+                    <li class="nav-item ms-4 index-nav text-start">
+                        <a class="nav-link gray-color active" href="stream.html">Streams</a>
+                    </li>
+                    <li class="nav-item ms-4 profile">
+                        <a class="nav-link gray-color profile-hover-color" href="profile.html">Profile <img
+                                src="Asst/profile-header.jpg" class="rounded-5 profile-img img-fluid ms-1" alt=""> </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+</div>
+
+
+<div class="container">
+        <div class="BrowseBaner contenet-bg rounded-4 p-5">
+    
+    
+            <div class="row g-3">
+    
+    
+                <div class="col-xl-8 container-bg-black rounded-4 p-4 ">
+    
+                    <h4 class="text-light font-banerSize "><span class="underLiene">Live</span> <span
+                            class="active">Streams</span> </h4>
+    
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div
+                                        class="col-xl-4 col-md-4 d-flex flex-column justify-content-center align-items-center mt-3 ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-01.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="text-centainer-caards d-flex  mt-3 mb-3 ">
+                                            <div class="left-text me-5">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                    <div
+                                        class="col-xl-4  col-md-4 d-flex flex-column justify-content-center align-items-center  ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-02.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="text-centainer-caards d-flex mt-3 mb-3">
+                                            <div class="left-text me-5   ">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+    
+                                    </div>
+                                    <div
+                                        class="col-xl-4  col-md-4 d-flex flex-column  justify-content-center align-items-center  ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-03.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+    
+                                        <div class="text-centainer-caards d-flex mt-3 mb-3 ">
+                                            <div class="left-text me-5">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+    
+    
+                                </div>
+    
+                            </div>
+    
+    
+    
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div
+                                        class="col-xl-4 col-md-4 d-flex flex-column justify-content-center align-items-center mt-3 ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-01.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="text-centainer-caards d-flex  mt-3 mb-3 ">
+                                            <div class="left-text me-5">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                    <div
+                                        class="col-xl-4  col-md-4 d-flex flex-column justify-content-center align-items-center  ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-02.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="text-centainer-caards d-flex mt-3 mb-3">
+                                            <div class="left-text me-5   ">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+    
+                                    </div>
+                                    <div
+                                        class="col-xl-4  col-md-4 d-flex flex-column  justify-content-center align-items-center  ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-03.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+    
+                                        <div class="text-centainer-caards d-flex mt-3 mb-3 ">
+                                            <div class="left-text me-5">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+    
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div
+                                        class="col-xl-4 col-md-4 d-flex flex-column justify-content-center align-items-center mt-3 ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-01.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="text-centainer-caards d-flex  mt-3 mb-3 ">
+                                            <div class="left-text me-5">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+                                    <div
+                                        class="col-xl-4  col-md-4 d-flex flex-column justify-content-center align-items-center  ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-02.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+                                        <div class="text-centainer-caards d-flex mt-3 mb-3">
+                                            <div class="left-text me-5   ">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+    
+                                    </div>
+                                    <div
+                                        class="col-xl-4  col-md-4 d-flex flex-column  justify-content-center align-items-center  ">
+                                        <div class="pic1 pics">
+                                            <img src="Asst/featured-03.jpg" class="w-100 img-fluid" alt="...">
+                                        </div>
+    
+                                        <div class="text-centainer-caards d-flex mt-3 mb-3 ">
+                                            <div class="left-text me-5">
+                                                <h5 class="cardGameFont-title">Gamezer</h5>
+                                                <h5 class="cardGameFont-Sub-title">249k Downloads</h5>
+                                            </div>
+                                            <div class="right-text">
+                                                <div class="text-light"><i class="fa-solid fa-star"
+                                                        style="color: #FFD43B;"></i> 4.2</div>
+                                                <div class="text-light"><i class="fa-solid fa-download active"></i> 2.3M
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+    
+                                    </div>
+    
+    
+                                </div>
+                            </div>
+    
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+    
+    
+    
+                </div>
+    
+                <div class="col-xl-4">
+                    <div class="top-Download container-bg-black rounded-4 p-4">
+                        <h4 class="text-light font-banerSize "><span class="underLiene">Top</span> <span
+                                class="active">Streamers</span> </h4>
+    
+                                <div class="div">
+                      <div class="top d-flex justify-content-between align-items-center mt-4">
+<div class="left-side-info d-flex align-items-center">
+<div class="number text-light fw-bold me-2">1</div>
+<div class="profile-picture me-3 ">
+    <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+</div>
+<div class="streamer-Name mt-1">
+    <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>LahutaM
+    </h6>
+</div>
+
+
+</div>
+<div class="right-side-follow d-flex align-items-center ">
+<div class="bouton">
+    <button class="btn btn-primary rounded-5 px-3">Follow</button>
+</div>
+
+</div>
+
+
+
+
+                      </div>
+                    </div>
+
+                    <div class="div">
+                        <div class="top d-flex justify-content-between align-items-center mt-4">
+                            <div class="left-side-info d-flex align-items-center">
+                                <div class="number text-light fw-bold me-2">2</div>
+                                <div class="profile-picture me-3 ">
+                                    <img src="Asst/avatar-02.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="streamer-Name mt-1">
+                                    <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>Kengan
+                                    </h6>
+                                </div>
+                    
+                    
+                            </div>
+                            <div class="right-side-follow d-flex align-items-center ">
+                                <div class="bouton">
+                                    <button class="btn btn-primary rounded-5 px-3">Follow</button>
+                                </div>
+                    
+                            </div>
+                    
+                    
+                    
+                    
+                        </div>
+                    </div>
+
+                    <div class="div">
+                        <div class="top d-flex justify-content-between align-items-center mt-4">
+                            <div class="left-side-info d-flex align-items-center">
+                                <div class="number text-light fw-bold me-2">3</div>
+                                <div class="profile-picture me-3 ">
+                                    <img src="Asst/avatar-01.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="streamer-Name mt-1">
+                                    <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>Areluwa
+                                    </h6>
+                                </div>
+                    
+                    
+                            </div>
+                            <div class="right-side-follow d-flex align-items-center ">
+                                <div class="bouton">
+                                    <button class="btn btn-primary rounded-5 px-3">Follow</button>
+                                </div>
+                    
+                            </div>
+                    
+                    
+                    
+                    
+                        </div>
+                    </div>
+
+                    <div class="div">
+                        <div class="top d-flex justify-content-between align-items-center mt-4">
+                            <div class="left-side-info d-flex align-items-center">
+                                <div class="number text-light fw-bold me-2">4</div>
+                                <div class="profile-picture me-3 ">
+                                    <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="streamer-Name mt-1">
+                                    <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>OmegFollow
+                                    </h6>
+                                </div>
+                    
+                    
+                            </div>
+                            <div class="right-side-follow d-flex align-items-center ">
+                                <div class="bouton">
+                                    <button class="btn btn-primary rounded-5 px-3">Follow</button>
+                                </div>
+                    
+                            </div>
+                    
+                    
+                    
+                    
+                        </div>
+                    </div>
+
+                    <div class="div border-0">
+                        <div class="top d-flex justify-content-between align-items-center mt-4">
+                            <div class="left-side-info d-flex align-items-center">
+                                <div class="number text-light fw-bold me-2">5</div>
+                                <div class="profile-picture me-3 ">
+                                    <img src="Asst/avatar-03.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="streamer-Name mt-1">
+                                    <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>LahutaM
+                                    </h6>
+                                </div>
+                    
+                    
+                            </div>
+                            <div class="right-side-follow d-flex align-items-center ">
+                                <div class="bouton">
+                                    <button class="btn btn-primary rounded-5 px-3">Follow</button>
+                                </div>
+                    
+                            </div>
+                    
+                    
+                    
+                    
+                        </div>
+                    </div>
+    
+    
+    
+    
+                    </div>
+
+
+                    
+
+                    
+    
+    
+    
+                </div>
+              
+
+                <div class="col-12">
+
+<div class="LiveStream container-bg-black rounded-4 p-4 mt-5">
+
+    <h1 class="text-light"> <span class="underLiene">Most Popular</span> <span class="active">Live Stream</span> </h1>
+    <div class="popular-cards">
+        <div class="row g-2 ">
+
+            <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+
+                <div class="popular-cards-cenianer mt-4">
+                    <div class="popular-photo mb-4">
+                        <img src="Asst/stream-06.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="text-contnet d-flex">
+                        <div class="profile-picture me-3 ">
+                            <img src="Asst/avatar-01.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text-info-popular">
+                            <h6 class="active"><span class="text-light true-check"><i
+                                        class="fa-solid fa-check"></i></span>KenganC</h6>
+                            <h3 class="text-light fw-bold fs-20">Just Talking With Fans</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+
+                <div class="popular-cards-cenianer mt-4">
+                    <div class="popular-photo mb-4">
+                        <img src="Asst/stream-07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="text-contnet d-flex">
+                        <div class="profile-picture me-3 ">
+                            <img src="Asst/avatar-02.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text-info-popular">
+                            <h6 class="active"><span class="text-light true-check"><i
+                                        class="fa-solid fa-check"></i></span>LunaMa
+                            </h6>
+                            <h3 class="text-light fw-bold fs-20">CS-GO 36 Hours Live Stream</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12  d-flex justify-content-center align-items-center">
+
+                <div class="popular-cards-cenianer mt-4">
+                    <div class="popular-photo mb-4">
+                        <img src="Asst/stream-08.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="text-contnet d-flex">
+                        <div class="profile-picture me-3 ">
+                            <img src="Asst/avatar-03.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text-info-popular">
+                            <h6 class="active"><span class="text-light true-check"><i
+                                        class="fa-solid fa-check"></i></span>Areluwa
+                            </h6>
+                            <h3 class="text-light fw-bold fs-20">Maybe Nathej Allnight Chillin'
+                            </h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+
+                <div class="popular-cards-cenianer mt-4">
+                    <div class="popular-photo mb-4">
+                        <img src="Asst/stream-07.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="text-contnet d-flex">
+                        <div class="profile-picture me-3 ">
+                            <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+                        </div>
+
+                        <div class="text-info-popular">
+                            <h6 class="active"><span class="text-light true-check"><i
+                                        class="fa-solid fa-check"></i></span>GangTm
+                            </h6>
+                            <h3 class="text-light fw-bold fs-20">Live Streaming Till Morning
+
+                            </h3>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+                <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+                
+                    <div class="popular-cards-cenianer mt-4">
+                        <div class="popular-photo mb-4">
+                            <img src="Asst/stream-07.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="text-contnet d-flex">
+                            <div class="profile-picture me-3 ">
+                                <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+                            </div>
+                
+                            <div class="text-info-popular">
+                                <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>GangTm
+                                </h6>
+                                <h3 class="text-light fw-bold fs-20">Live Streaming Till Morning
+                
+                                </h3>
+                
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                </div>
+
+                    <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+                    
+                        <div class="popular-cards-cenianer mt-4">
+                            <div class="popular-photo mb-4">
+                                <img src="Asst/stream-08.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="text-contnet d-flex">
+                                <div class="profile-picture me-3 ">
+                                    <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+                                </div>
+                    
+                                <div class="text-info-popular">
+                                    <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>GangTm
+                                    </h6>
+                                    <h3 class="text-light fw-bold fs-20">Live Streaming Till Morning
+                    
+                                    </h3>
+                    
+                                </div>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+
+
+                        <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+                        
+                            <div class="popular-cards-cenianer mt-4">
+                                <div class="popular-photo mb-4">
+                                    <img src="Asst/stream-06.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="text-contnet d-flex">
+                                    <div class="profile-picture me-3 ">
+                                        <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+                                    </div>
+                        
+                                    <div class="text-info-popular">
+                                        <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>GangTm
+                                        </h6>
+                                        <h3 class="text-light fw-bold fs-20">Live Streaming Till Morning
+                        
+                                        </h3>
+                        
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                        </div>
+
+                            <div class="col-xl-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
+                            
+                                <div class="popular-cards-cenianer mt-4">
+                                    <div class="popular-photo mb-4">
+                                        <img src="Asst/stream-07.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="text-contnet d-flex">
+                                        <div class="profile-picture me-3 ">
+                                            <img src="Asst/avatar-04.jpg" class="img-fluid" alt="">
+                                        </div>
+                            
+                                        <div class="text-info-popular">
+                                            <h6 class="active"><span class="text-light true-check"><i class="fa-solid fa-check"></i></span>GangTm
+                                            </h6>
+                                            <h3 class="text-light fw-bold fs-20">Live Streaming Till Morning
+                            
+                                            </h3>
+                            
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            
+                            </div>
+
+            <div class="col-12 mt-4 ">
+                <div class="bouttonn text-center">
+                    <button class="btn btn-primary text-light rounded-5 px-4">Load More Streams</button>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+                </div>
+
+                
+    
+    
+    
+            </div>
+
+
+     
+        </div>
+       
+       
+
+
+fgdfgdf
+        
+    </div>
+
+
+<div class="row">
+    <div class="col-12 text-center text-light">
+        <h3 class="copyRight">Copyright © 2036 <span class="download-color">Sleman Assaf.</span> All rights reserved.
+        </h3>
+
+
+
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
